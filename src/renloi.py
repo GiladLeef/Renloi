@@ -16,7 +16,7 @@ options:
 
 import os
 from typing import Dict, Any
-
+import sys
 from docopt import docopt
 from renloi.compiler.code_generator import CodeGenerator
 from renloi.lexer import Lexer
@@ -69,4 +69,4 @@ if __name__ == "__main__":
     elif args['run']:
         _run(args)
     else:
-        exit(__doc__)
+        sys.exit()(__doc__)
