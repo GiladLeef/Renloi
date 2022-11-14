@@ -5,6 +5,7 @@ If you want to run Renloi from the source, you should have python 3.10 or greate
 
 A recent version of gcc/g++.
 # Code Reference
+This is a simple guide about all the features included in Renloi. Let's start with a simple "Hello, World!" Program.
 ## Hello, World!
 Without using a function
 
