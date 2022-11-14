@@ -1,13 +1,3 @@
-"""
-THE FOLLOWING BUILTINS ARE NOT SUPPORTED YET:
-
-- .remove() (lists)
-
-"""
-
-
-
-
 import os
 import re
 import sys
