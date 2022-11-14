@@ -1,5 +1,5 @@
 # Renloi
-A general-purpose blazingly fast compiled programming language
+A general-purpose blazingly fast compiled programming language with minimal runtime.
 
 # Code Reference
 ## Hello, World!
