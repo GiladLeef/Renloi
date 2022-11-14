@@ -1,2 +1,2 @@
 # Renloi
-A general-purpose object-oriented blazingly fast compiled programming language
+A general-purpose blazingly fast compiled programming language
