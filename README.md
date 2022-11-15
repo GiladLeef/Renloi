@@ -36,3 +36,8 @@ word = "Ten"
 print(name)
 print(word)
 ```
+## Writing data to files
+```py
+content = "Wow, This is a text file!"
+write("textfile.txt", content)
+```
