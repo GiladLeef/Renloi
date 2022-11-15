@@ -156,3 +156,9 @@ class pystring : public std::basic_string<char>
             assert(size());
         }	
 };
+
+void write(std::string filename, std::string content){
+    std::ofstream MyFile(filename);
+    MyFile << (content);
+
+};
