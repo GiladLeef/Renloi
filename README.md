@@ -41,6 +41,11 @@ print(word)
 content = "Wow, This is a text file!"
 write("textfile.txt", content)
 ```
+## Reading data from files
+```py
+content = read("textfile.txt")
+print(content)
+```
 ## Generating a random number
 ```py
 import random
