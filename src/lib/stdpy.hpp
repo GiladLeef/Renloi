@@ -160,7 +160,16 @@ class pystring : public std::basic_string<char>
 };
 
 void write(std::string filename, std::string content){
-    std::ofstream MyFile(filename);
-    MyFile << (content);
+    std::ofstream MyWriteFile(filename);
+    MyWriteFile << (content);
+    MyWriteFile.close();
 
 };
+
+std::string read(std::string filename){
+    std::ifstream MyReadFile; MyReadFile.open(filename);
+    std::string content;
+    while (getline (MyReadFile, content)){
+        return content;
+    }
+}
