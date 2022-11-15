@@ -49,6 +49,6 @@ print(content)
 ## Generating a random number
 ```py
 import random
-number = random.randint(1, 10) // The generated number will be a number from 1 to 10.
+number = random.randint(1, 10) ## The generated number will be a number from 1 to 10.
 print(number)
 ```
