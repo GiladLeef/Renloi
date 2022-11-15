@@ -30,7 +30,9 @@ Note: All the functions you want to include inside the main function, needs to b
 If you didn't declare any function, you don't need to use the main() function.
 
 ## Declaring variables
+```py
 number = 10
 word = "Ten"
 print(name)
 print(word)
+```
