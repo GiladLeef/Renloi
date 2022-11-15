@@ -41,3 +41,9 @@ print(word)
 content = "Wow, This is a text file!"
 write("textfile.txt", content)
 ```
+## Generating a random number
+```py
+import random
+number = random.randint(1, 10)
+print(number)
+```
