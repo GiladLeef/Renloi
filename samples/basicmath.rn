@@ -1,6 +1,0 @@
-y = 5
-x = 10
-
-
-print(y + x)
-print(y * x)
