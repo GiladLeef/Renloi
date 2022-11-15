@@ -1,4 +1,4 @@
-# Renloi
+# Welcome to Renloi
 A general-purpose blazingly fast compiled programming language with minimal runtime. Current version is 1.0.0.
 ## Requirements
 If you want to run Renloi from the source, you should have python 3.10 or greater installed.
