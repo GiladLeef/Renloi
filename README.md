@@ -52,7 +52,7 @@ import random
 number = random.randint(1, 10) # The generated number will be a number from 1 to 10.
 print(number)
 ```
-## Counting to 100
+## Counting up to 100
 ```py
 def count():
     number = 1
