@@ -52,3 +52,14 @@ import random
 number = random.randint(1, 10) # The generated number will be a number from 1 to 10.
 print(number)
 ```
+## Counting to 100
+```py
+def count():
+    number = 1
+    while number < 101:
+        print(number)
+        number += 1
+
+def main():
+    count()
+```
