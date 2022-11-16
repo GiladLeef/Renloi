@@ -63,3 +63,4 @@ def count():
 def main():
     count()
 ```
+## Like the project? Star it!
