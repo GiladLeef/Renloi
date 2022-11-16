@@ -1,5 +1,5 @@
 # Welcome to Renloi
-Renloi is a general-purpose blazingly fast compiled programming language with minimal runtime.
+Renloi is a general-purpose blazingly-fast compiled programming language with minimal runtime.
 ## Requirements
 If you want to run Renloi from the source, you should have python 3.10 or greater installed.
 
