@@ -176,15 +176,15 @@ def gettokens(filename: str, verbose: bool):
     try:
         with open(filename, "r") as src:
             source = src.readlines()
-        with open("temp.py", "x") as x:
+        with open("temp.rn", "x") as x:
             pass
-        with open("temp.py", "w") as temp:
+        with open("temp.rn", "w") as temp:
             temp.write(refactor.refactorforcompiler(source))
-        with open("temp.py", "rb") as f:
+        with open("temp.rn", "rb") as f:
             tokens = tokenize.tokenize(f.readline)
             token_list = [t.string for t in tokens][1:-2]
 
-        os.remove("temp.py")
+        os.remove("temp.rn")
 
         while "" in token_list:
             token_list.remove("")
