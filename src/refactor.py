@@ -93,7 +93,7 @@ def refactorforcompiler(code: list):
 
     except Exception as e:
         print(f"error: likely an indexing problem in 'refactorforcompiler()': {e}")
-        os.remove("temp.py")
+        os.remove("temp.rn")
         exit(1)
 
         
