@@ -44,7 +44,7 @@ def run_compile(flags: Namespace):
         exit()
 
     if info:
-        print(f"\n[INFO]: Started compiling {filename};\n")
+        print(f"\n[INFO]: Started compiling {filename}\n")
 
     start_time = time.perf_counter()
 
