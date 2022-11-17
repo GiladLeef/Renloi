@@ -126,7 +126,7 @@ def run_compile(flags: Namespace):
             "/", "\\\\") if _platform != "Linux" else filename.split('.')[0]
         if info and not check:
             print(
-                f"[INFO] Finished compiling '{filename}' in {round(end_time-start_time, 2)}s ({round(end_time-start_time, 2) * 1000}ms)\n")
+                f"[INFO]: Finished compiling '{filename}' in {round(end_time-start_time, 2)}s ({round(end_time-start_time, 2) * 1000}ms)\n")
 
         if check:
             print(
