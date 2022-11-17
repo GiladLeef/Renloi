@@ -103,8 +103,6 @@ def run_compile(flags: Namespace):
 
     end_time = time.perf_counter()
 
-    if info:
-        print(f"[INFO]: Finished compiling '{filename}';\n")
 
     if error != b"":
         errorstr = errors.cpperrortorenloierror(error.decode(
@@ -128,7 +126,7 @@ def run_compile(flags: Namespace):
             "/", "\\\\") if _platform != "Linux" else filename.split('.')[0]
         if info and not check:
             print(
-                f"[INFO] Successfully compiled '{filename}' in {round(end_time-start_time, 2)}s ({round(end_time-start_time, 2) * 1000}ms)\n")
+                f"[INFO] Finished compiling '{filename}' in {round(end_time-start_time, 2)}s ({round(end_time-start_time, 2) * 1000}ms)\n")
 
         if check:
             print(
