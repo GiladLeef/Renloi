@@ -1,5 +1,5 @@
 #include <cmath>
 
-class Pandas{
+class Num{
     
 };

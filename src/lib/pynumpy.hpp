@@ -1,5 +1,0 @@
-#include <cmath>
-
-class Numpy{
-    
-};

@@ -54,7 +54,7 @@ implementedtypes = [
 
 implementedmodules = [
     "math",
-    "numpy",
+    "num",
     "os",
     "sys",
     "rnd"
@@ -65,7 +65,7 @@ types = ["str", "int", "float", "list", "bool", "strlist", "floatlist", "None"]
 typecomparisons = ["const std::type_info& inttype = typeid(int);", "const std::type_info& floattype = typeid(float);"]
 
 includes = ["iostream", "string", "./lib/range.hpp", "cmath",
-            "sstream", "./lib/format.h", "vector", "./lib/boost/multiprecision/cpp_int.hpp", "typeinfo", "./lib/stdpy.hpp"]
+            "sstream", "./lib/format.h", "vector", "./lib/boost/multiprecision/cpp_int.hpp", "typeinfo", "./lib/std.hpp"]
 
 using = ["util::lang::range"]
 
