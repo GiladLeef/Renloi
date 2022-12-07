@@ -24,7 +24,6 @@ def run_compile(flags: Namespace):
         print(red(f"[ERROR]: '{filename}' not found. Please check the file name and try again"))
         exit(1)
 
-    debug = flags.debug
     info = flags.info
     run = flags.run
     run_and_del = flags.runanddelete
@@ -35,7 +34,6 @@ def run_compile(flags: Namespace):
     output = flags.output
     fastmath = flags.fastmath
     verbose = flags.verbose
-    test = flags.test
     check = flags.check
     gpp_errors = flags.gpperrors
 
@@ -163,7 +161,7 @@ def main():
     parser.add_argument(
         '-o', '--output', type=str, default='',
         help='The string specified after the flag will be the name of the generated executable. '
-             'Defaults to the name of the Python file that was passed in.'
+             'Defaults to the name of the Renloi file that was passed in.'
     )
     parser.add_argument(
         '-fm', '--fastmath', action='store_true',
@@ -172,10 +170,6 @@ def main():
     parser.add_argument(
         '-c', '--check', action='store_true',
         help='Check if the program will compile without actually compiling it. Defaults to off.'
-    )
-    parser.add_argument(
-        '-d', '--debug', action='store_true',
-        help='Print all tokens of file into "temptests/test.txt". Defaults to off. (DEV ONLY)'
     )
     parser.add_argument(
         '-t', '--tokens', action='store_true',
@@ -196,10 +190,6 @@ def main():
     parser.add_argument(
         '-v', '--verbose', action='store_true',
         help='Run with verbose logging. Defaults to off.'
-    )
-    parser.add_argument(
-        '-te', '--test', action='store_true',
-        help='Test (not implemented)'
     )
     parser.add_argument(
         '-ge', '--gpperrors', action='store_true',
