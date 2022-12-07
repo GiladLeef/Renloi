@@ -327,7 +327,7 @@ class Compile:
                     code += "false "
 
                 elif self.oktokens[i][self.value] == "import":
-                    code = f'#include "./lib/py{self.oktokens[i+1][self.value]}.hpp"\n{str(self.oktokens[i+1][self.value]).capitalize()} {self.oktokens[i+1][self.value]};\n' + code
+                    code = f'#include "./lib/{self.oktokens[i+1][self.value]}.hpp"\n{str(self.oktokens[i+1][self.value]).capitalize()} {self.oktokens[i+1][self.value]};\n' + code
 
                 else:
                     print(
