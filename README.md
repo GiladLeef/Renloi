@@ -68,6 +68,6 @@ def main():
 
 ## TODO List
 Get rid of Python! Implement the lang in C++!
-Or, find a way to compile the lang into a single-standalone executable.
+or, find a way to compile the lang into a single-standalone executable.
 
 ## Like the project? Star it!
