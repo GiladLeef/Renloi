@@ -6,7 +6,7 @@
 #include <cctype>
 #include <algorithm>
 #include <string>
-#include "boost/multiprecision/cpp_int.hpp"
+#include <boost/multiprecision/cpp_int.hpp>
 
 typedef boost::multiprecision::cpp_int bigint;
 
