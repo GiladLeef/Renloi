@@ -70,4 +70,6 @@ def main():
 Get rid of Python! Implement the lang in C++!
 or, find a way to compile the lang into a single-standalone executable.
 
+Add built-in functions for basic network operations.
+
 ## Like the project? Star it!
