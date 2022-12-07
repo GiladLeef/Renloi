@@ -67,6 +67,6 @@ def main():
 ```
 
 ## TODO List
-Get rid of python! Implement the lang in C++!
+Get rid of Python! Implement the lang in C++!
 
 ## Like the project? Star it!
