@@ -128,7 +128,7 @@ def run_compile(flags: Namespace):
 
         if check:
             print(
-                f"[INFO] No errors in the compilation of '{filename}.py'; successful check")
+                f"[INFO] No errors in the compilation of '{filename}.rn'; successful check")
             os.remove(filename.split('.')[0]) if _platform == "Linux" else os.remove(
                 filename + ".exe")
             exit(0)
