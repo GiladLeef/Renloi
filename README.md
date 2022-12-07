@@ -51,7 +51,7 @@ print(content)
 ## Generating a random number
 ```py
 import random
-number = random.randint(1, 10) # The generated number will be a number from 1 to 10, based on the current time the program have executed in as a seed.
+number = random.randint(1, 10) # The generated number will be a number from 1 to 10, based on the current time the program have been executed in as the seed.
 print(number)
 ```
 ## Counting up to 100
