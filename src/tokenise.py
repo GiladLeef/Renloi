@@ -353,5 +353,5 @@ def gettokens(filename: str, verbose: bool):
 
     except FileNotFoundError:
         print(f"tokenise.py: error: '{filename}' not found", file=sys.stderr)
-        os.remove("temp.py")
+        os.remove("temp.rn")
         exit(1)
