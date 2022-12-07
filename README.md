@@ -65,4 +65,8 @@ def count():
 def main():
     count()
 ```
+
+#TODO List
+Get rid of python! Implement the lang in C++!
+
 ## Like the project? Star it!
