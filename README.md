@@ -71,5 +71,6 @@ Get rid of Python! Implement the lang in C++!
 or, find a way to compile the lang into a single-standalone executable.
 
 Add built-in functions for basic network operations.
+Add the ability to import functions from different Renloi source files.
 
 ## Like the project? Star it!
