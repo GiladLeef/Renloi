@@ -28,7 +28,7 @@ def cpperrortorenloierror(error: str):
     for error in errorlines:
         if error.endswith(" was not declared in this scope"):
             errortype = "NameError"
-            errortok = error.removesuffix("’ was not declared in this scope")[1:]
+            errortok = error.removesuffix(" was not declared in this scope")[1:]
             errormsg = f"name '{errortok}' is not defined"
             newerrorlines.append(" " * 8 + Error(errortype, errormsg).returnerror())
 
