@@ -193,7 +193,7 @@ def main():
     )
     parser.add_argument(
         '-ge', '--gpperrors', action='store_true',
-        help='Print g++ errors compiler errors instead of renloi ones. Defaults to off.'
+        help='Print g++ compiler errors instead of renloi ones. Defaults to off.'
     )
     parser.add_argument('source_file', type=str, help='Source file')
     parsed_args = parser.parse_args()
