@@ -331,7 +331,7 @@ class Compile:
 
                 else:
                     print(
-                        red(f"error: keyword '{self.oktokens[i][self.value]}' is not yet implemented, sorry"))
+                        red(f"Error: keyword '{self.oktokens[i][self.value]}' is not available"))
                     exit(1)
 
             elif self.oktokens[i][self.type] == "FUNC":
@@ -405,7 +405,7 @@ class Compile:
 
         for token in self.tokens:
             if token[self.type] == "IMPORT_MODULE" and token[self.value] not in implementedmodules:
-                print(red(f"error: module/library {token[self.value]} is not implemented yet, sorry'"))
+                print(red(f"Error: module/library {token[self.value]} is not available'"))
                 exit(1)
 
             if token[self.type] == "SIG" and str(token[self.value]).endswith(" TAB"):
