@@ -7,7 +7,7 @@ Renloi code compiles first into C++, and then into optimized binary.
 ## Requirements
 If you want to run Renloi from the source, you should have Python 3.10 or greater installed.
 
-A recent version of gcc/g++, with the c++ boost library version 1.7.9.
+A recent version of gcc/g++, with the c++ boost library versions 1.7.9 - 1.8.1.
 # Code Reference
 This is a simple guide about all the features included in Renloi. Let's start with a simple "Hello, World!" Program.
 ## Hello, World!
