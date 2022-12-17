@@ -2,6 +2,8 @@
 Renloi is a general-purpose blazingly-fast compiled programming language with minimal runtime.
 
 Renloi comes right out of the box with the runtime speed of C++, and an easy syntax similar to Python.
+
+Renloi code compiles first into C++, and then into optimized binary.
 ## Requirements
 If you want to run Renloi from the source, you should have Python 3.10 or greater installed.
 
