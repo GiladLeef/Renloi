@@ -64,8 +64,8 @@ types = ["str", "int", "float", "list", "bool", "strlist", "floatlist", "None"]
 
 typecomparisons = ["const std::type_info& inttype = typeid(int);", "const std::type_info& floattype = typeid(float);"]
 
-includes = ["iostream", "string", "./lib/range.hpp", "cmath",
-            "sstream", "./lib/format.h", "vector", "boost/multiprecision/cpp_int.hpp", "typeinfo", "./lib/std.hpp"]
+includes = ["iostream", "string", "renloi/range.hpp", "cmath",
+            "sstream", "renloi/format.h", "vector", "boost/multiprecision/cpp_int.hpp", "typeinfo", "renloi/std.hpp"]
 
 using = ["util::lang::range"]
 
