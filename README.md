@@ -1,5 +1,11 @@
-# Welcome to Renloi
-Renloi is a general-purpose blazingly-fast compiled programming language with minimal runtime.
+<h1 align="center">Renloi</h1>
+<p align="center">
+   A general-purpose blazingly-fast compiled programming language
+</p>
+<p align="center">
+  <img src="https://badgen.net/github/license/giladleef/renloi" />
+  </a>
+</p>
 
 Renloi comes right out of the box with the runtime speed of C++, and an easy syntax similar to Python.
 
